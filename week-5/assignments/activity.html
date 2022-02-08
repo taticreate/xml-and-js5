@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Activity Lab - Week 5 </title>
+    <script language="JavaScript">
 
+      function testResults(event) {
+        event.preventDefault();
+        const form = event.target;
+
+        const inputText = form.inputText;
+        console.log(`Selected value: ${inputText.value}`);
+
+        const inputRadio = form.inputRadio;
+        console.log(`Radio value: ${inputRadio.value}`);
+
+        const inputCheckbox = form.inputCheckbox.forEach(element => {
+           if(element.checked) console.log(`Checkbox value: ${element.value}`);
+        })
+      }
+
+    </script>
+  </head>
+  <body>
+    <form onSubmit="return testResults(event)" action="" method="get">
+    <h1></h1>
+        </br></br>
+      Enter something in the box: <br />
+      <input type="text" name="inputText" value="" required />
+        </br></br>
+      <label>Option1<input type="radio" name="inputRadio" unchecked={inputRadio.value === "option1"} value="option1" ></input></label></br>
+      <label>Option2<input type="radio" name="inputRadio" unchecked={inputRadio.value === "option2"} value="option2" ></input></label></br>
+      <label>Option3<input type="radio" name="inputRadio" unchecked={inputRadio.value === "option3"} value="option3" ></input></label>
+        </br></br>
+      <label>Option1<input type="checkbox" name="inputCheckbox" unchecked={inputCheckbox.value === "option1"} value="option1"></input></label>
+      <label>Option2<input type="checkbox" name="inputCheckbox" unchecked={inputCheckbox.value === "option1"} value="option2"></input></label>
+      <label>Option3<input type="checkbox" name="inputCheckbox" unchecked={inputCheckbox.value === "option1"} value="option3"></input></label>
+        </br></br>
+      <button type="submit">Click</button>
+    </form>
+  </body>
+</html>
