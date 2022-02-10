@@ -1,7 +1,7 @@
 # Assignment
 
 HTML Code </br>
-![image info](assets/c1.png)
+![image info](assets/1.png)
 </br></br>
 
 JS Code</br>
@@ -10,5 +10,5 @@ JS Code</br>
 </br></br>
 
 OUTPUT</br>
-![image info](assets/assigmentOutput.png)
+![image info](assets/assignmentOutput.png)
 </br></br>
