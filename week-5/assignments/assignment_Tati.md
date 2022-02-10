@@ -6,6 +6,7 @@ HTML Code </br>
 
 JS Code</br>
 ![image info](code2.png)
+![image info](code3.png)
 </br></br>
 
 OUTPUT</br>
