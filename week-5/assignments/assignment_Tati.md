@@ -1,14 +1,14 @@
 # Assignment
 
 HTML Code </br>
-![image info](code1.png)
+![image info](assets/code1.png)
 </br></br>
 
 JS Code</br>
-![image info](code2.png)
-![image info](code3.png)
+![image info](assets/code2.png)
+![image info](assets/code3.png)
 </br></br>
 
 OUTPUT</br>
-![image info](assigmentOutput.png)
+![image info](assets/assigmentOutput.png)
 </br></br>
